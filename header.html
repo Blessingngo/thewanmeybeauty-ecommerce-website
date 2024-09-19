@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyCare</title>
+    <link rel="stylesheet" href="header.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Company Logo" class="company-logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Haircare</a></li> <!-- Replaced Best Sellers with Haircare -->
+                    <li class="dropdown">
+                        <a href="#">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onclick="showCategory('supplements')">Supplements</a></li>
+                            <li><a href="#" onclick="showCategory('skincare')">Skincare</a></li>
+                            <li><a href="#" onclick="showCategory('haircare')">Haircare</a></li>
+                            <li><a href="#" onclick="showCategory('wellness')">Health & Wellness</a></li>
+                            <li><a href="#" onclick="showCategory('fitness')">Fitness</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <a href="#" class="icon-link">Account</a>
+                <a href="cart.html" class="icon-link"></a> (<span id="cart-count">0</span>)</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="product-main">
+        <!-- Product categories will be dynamically inserted here -->
+    </main>
+</body>
+</html>
