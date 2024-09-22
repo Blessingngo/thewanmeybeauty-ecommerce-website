@@ -33,13 +33,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
   },
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/Blessingngo/thewanmeybeauty-ecommerce-website.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
@@ -47,13 +46,10 @@
   "bugs": {
     "url": "https://github.com/Blessingngo/thewanmeybeauty-ecommerce-website/issues"
   },
-  "homepage": "https://github.com/Blessingngo/thewanmeybeauty-ecommerce-website#readme"
-=======
-    "homepage": "http://<Blessingngo>.github.io/<thewanmeybeauty-ecommerce-website>",
+  "homepage": "http://<Blessingngo>.github.io/<thewanmeybeauty-ecommerce-website>",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
   }
->>>>>>> 3537a8f11d4b4f9293a28cce161b313bfc28b36f
 }
