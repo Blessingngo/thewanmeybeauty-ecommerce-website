@@ -33,5 +33,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Blessingngo/thewanmeybeauty-ecommerce-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blessingngo/thewanmeybeauty-ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/Blessingngo/thewanmeybeauty-ecommerce-website#readme"
 }
