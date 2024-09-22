@@ -33,7 +33,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    "homepage": "http://<Blessingngo>.github.io/<thewanmeybeauty-ecommerce-website>",
+    "homepage": "http://Blessingngo.github.io/thewanmeybeauty-ecommerce-website",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
